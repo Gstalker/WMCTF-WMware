@@ -1,3 +1,6 @@
+# wp中的图片是软连接图片，git clone 这个仓库到本地后即可正常查看
+> 原文在微信公众号“白帽100攻防实验室”与WMCTF官方WriteUP一同发布
+
 ## 题目描述
 
 bochs是一个x86cpu模拟器，我写了一个mbr引导程序让cpu从磁盘中读取并执行代码
@@ -52,7 +55,7 @@ MBR运行结束之后，CPU跳转到了内存的0x900处继续执行代码
 
 ### 细节：ds，es中储存的到底是啥，保护模式如何寻址?
 
-[https://github.com/Gstalker/Kernel-Learning/tree/master/Cpt4.Rudiment%20of%20Protect%20Mode](https://github.com/Gstalker/Kernel-Learning/tree/master/Cpt4.Rudiment of Protect Mode)
+[https://github.com/Gstalker/Kernel-Learning/tree/master/Cpt4.Rudiment%20of%20Protect%20Mode](点击我跳转至另一个页面)
 
 见README：《GDT与段选择子》
 
