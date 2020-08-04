@@ -55,7 +55,7 @@ MBR运行结束之后，CPU跳转到了内存的0x900处继续执行代码
 
 ### 细节：ds，es中储存的到底是啥，保护模式如何寻址?
 
-[https://github.com/Gstalker/Kernel-Learning/tree/master/Cpt4.Rudiment%20of%20Protect%20Mode](点击我跳转至另一个页面)
+[保护模式笔记](https://github.com/Gstalker/Kernel-Learning/tree/master/Cpt4.Rudiment%20of%20Protect%20Mode)
 
 见README：《GDT与段选择子》
 
